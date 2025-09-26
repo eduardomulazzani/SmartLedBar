@@ -1,0 +1,19 @@
+{
+  "name": "SmartLedBarScript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "@serialport/list": "^13.0.0",
+    "ansi-styles": "^6.2.3",
+    "chalk": "4",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "ip": "^2.0.1",
+    "nodemon": "^3.1.10",
+    "serialport": "^13.0.0"
+  }
+}
